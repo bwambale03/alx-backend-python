@@ -1,4 +1,4 @@
-#!/usr/bin/python3 env
+#!/usr/bin/python3
 """
 This script analyzes and processes data from input files,
 applies transformations, and generates output reports.

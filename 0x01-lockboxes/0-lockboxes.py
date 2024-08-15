@@ -12,5 +12,6 @@ def canUnlockAll(boxes):
     return all(opened)
 
 # Usage
-boxes = [[1], [2], [3], []]
+'''boxes = [[1], [2], [3], []]
 print(canUnlockAll(boxes))
+'''

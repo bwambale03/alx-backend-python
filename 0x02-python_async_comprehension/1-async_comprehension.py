@@ -6,3 +6,18 @@
     The coroutine will collect 10 random numbers using an async comprehensing
     over async_generator, then return the 10 random numbers.
 '''
+
+from typing import List
+
+async def async_comprehension() -> List(float):
+    ''''returns a list of 10 random numbers'''
+    
+    async_gen = __import__('0-async_generator').async_generator
+    
+    rand_num = [i async for i in async_gen()]
+    
+    return rand_num
+
+if __name__ == "__main__":
+    import asyncio
+    asyncio.run(async_comprehension())

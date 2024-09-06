@@ -162,4 +162,4 @@ TEST_PAYLOAD = [
         "commits_url": "https://api.github.com/repos/google/cpp-netlib/commits{/sha}",
         "git_commits_url": "https://api.github.com/repos/google/cpp-netlib/git/commits{/sha}",
         "comments_url": "https://api.github.com/repos/google/cpp-netlib/comments{/number}",
-        "issue_comment_url": "https://api.github.com/repos/g
+        "issue_comment_url": "https: // api.github.com / repos / g
